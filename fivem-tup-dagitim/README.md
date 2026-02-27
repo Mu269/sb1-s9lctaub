@@ -2,6 +2,19 @@
 
 Bu kaynak, oyuncuların tüp dağıtım işi yapabildiği **standalone** bir örnektir.
 
+## Hızlı indirme (hazır)
+Aşağıdaki adımlarla scripti hazır şekilde alabilirsin:
+
+1. Bu repoyu ZIP olarak indir (GitHub'da **Code > Download ZIP**).
+2. ZIP'i çıkart.
+3. İçinden sadece `fivem-tup-dagitim` klasörünü al.
+4. Sunucundaki `resources/[local]` klasörüne at.
+5. `server.cfg` dosyana şunu ekle:
+   ```cfg
+   ensure fivem-tup-dagitim
+   ```
+6. Sunucuyu yeniden başlat.
+
 ## Özellikler
 - İşe başlama / mesai bitirme noktası
 - Tüp alma limiti (`Config.MaxCarry`)
